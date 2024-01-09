@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: DejaVu Sans Mono, monospace;
+}
+ul,
+ol {
+  list-style: none;
+}
+.b-menu {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.2em;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.section1 {
+  height: 70vh;
+  background-color: #d0c7b6;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+.head {
+  margin-right: 40vh;
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu-list li {
+  margin-left: 10px;
+}
+
+.bloc1 {
+  width: 130vh;
+  height: 45vh;
+  position: absolute;
+  top: 15vh;
+  left: 40vh;
+  background-color: #c1a78c;
+}
+.bloc2 {
+  width: 60vh;
+  height: 65vh;
+  position: absolute;
+  top: 5vh;
+  left: 105vh;
+  background-color: white;
+}
+.section2 {
+  margin-left: 40vh;
+  margin-top: 10vh;
+  margin-right: 40vh;
+  height: 30vh;
+}
+h1 {
+  font-size: 50px;
+}
+.section3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 42vh;
+}
+.projet {
+  background-color: #d0c7b6;
+  width: 30vh;
+  height: 30vh;
+}
+.projetImg {
+  width: 30vh;
+  height: 30vh;
+}
+.projet2 {
+  background-color: #d0c7b6;
+  width: 30vh;
+  height: 30vh;
+}
+.projetImg2 {
+  width: 30vh;
+  height: 30vh;
+}
+.section4 {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 42vh;
+}
+
+h2 {
+  text-align: center;
+}
+.descr {
+  padding: 2vh;
+}
+.section4-3 {
+  height: 90vh;
+}
+.contact {
+  margin-left: 22vh;
+  margin-bottom: 6vh;
+}
+input,
+textarea {
+  margin-left: 110vh;
+  background-color: lightgray;
+  padding: 2vh;
+  margin-bottom: 2vh;
+  stroke: none;
+  width: 50vh;
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d0c7b6; /* Couleur de fond du bouton */
+  color: #ffffff; /* Couleur du texte */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px; /* Bordures arrondies */
+  cursor: pointer;
+  margin-left: 110vh;
+}
+.section5 {
+  height: 60vh;
+}
+footer {
+  background-color: #d0c7b6;
+  height: 20vh;
+}
+.footer {
+  margin-top: 10vh;
+}
